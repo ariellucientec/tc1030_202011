@@ -1,0 +1,2 @@
+#include"wife.h"              #include"hushand"
+#include<iostream>            #include<string>

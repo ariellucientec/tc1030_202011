@@ -1,4 +1,6 @@
 #include<string>
+#include<iostream>
+#include"Board.h"
 using namespace std;
 
 #pragma once
@@ -9,6 +11,8 @@ class User
 public:
     User()=default;
     User(string name);
-    void writeOnBoard(string);
+    void writeOnBoard(Board*, string);
     string getName();
+
+    ~User();
 };

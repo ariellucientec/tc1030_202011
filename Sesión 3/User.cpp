@@ -2,7 +2,7 @@
 
 //Encapsulamiento
 
-void User::writeOnBoard(string message )
+void User::writeOnBoard(Board* board, string message )
 {
     // cout <<
 }
@@ -10,6 +10,11 @@ void User::writeOnBoard(string message )
 User::User(string name)
 {
     setName(name);
+}
+
+User::~User()
+{
+    cout << "destructor de user";
 }
 
 string User::getName(){ return name;}
