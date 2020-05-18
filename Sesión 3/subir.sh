@@ -1,1 +1,3 @@
-../.././subir.sh
+cd ..
+cd ..
+./subir.sh
