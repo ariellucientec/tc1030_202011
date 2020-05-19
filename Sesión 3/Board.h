@@ -2,7 +2,6 @@
 #include<string>
 #include"User.h"
 using namespace std;
-
 #pragma once 
 class Board
 {

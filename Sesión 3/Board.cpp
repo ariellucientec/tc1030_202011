@@ -1,4 +1,5 @@
     #include"Board.h"
+    #include"User.h"
     
     void Board::writeMessage(User* user, string message)
     {
