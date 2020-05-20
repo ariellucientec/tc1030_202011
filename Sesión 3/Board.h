@@ -15,3 +15,14 @@ public:
     void clearMessages();
     int howManyMessages(User*);
 };
+
+class Board
+{
+    string allMessages;
+public:
+    Board()=default;
+    void writeMessage(string message);
+    void printBoard();
+    void clearMessages();
+};
+
