@@ -17,6 +17,8 @@ int main()
 
     peterBoard->printBoard();
 
+    bobBoard->printBoard();
+
     //destruir apuntadores
 
     delete peter;

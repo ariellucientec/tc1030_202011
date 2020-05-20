@@ -1,10 +1,11 @@
 #include"User.h"
+#include"Board.h"
 
 //Encapsulamiento
 
 void User::writeOnBoard(Board* board, string message )
 {
-    // cout <<
+    board->writeMessage(this, message);
 }
 
 User::User(string name)

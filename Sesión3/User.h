@@ -1,6 +1,6 @@
 #include<string>
 #include<iostream>
-#include"Board.h"
+class Board;  //forward declaration
 using namespace std;
 
 #pragma once
