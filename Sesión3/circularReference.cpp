@@ -45,6 +45,9 @@ int main()
 
     cout<< "Soy " << w->getName() << " y contraje matrimonio con " << w->getHusband()->getName() << endl;
     cout<< "Soy " << h->getName() << " y contraje matrimonio con " << h->getWife()->getName() << endl;
+
+    delete w;
+    delete h;
 }
 
 
