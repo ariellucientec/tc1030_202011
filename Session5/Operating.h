@@ -1,10 +1,11 @@
 #include<string>
 #include<iostream>
+#include"System.h"
 using namespace std;
 
 class DeviceDriver;
 #pragma once
-class Operating
+class Operating : public System
 {
     DeviceDriver* deviceDriver; //aggregation operation
     string shellName;

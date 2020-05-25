@@ -2,7 +2,7 @@
 using namespace std;
 
 #pragma once
-class DeviceDriver
+class DeviceDriver : public System
 {
 
 public:

@@ -6,6 +6,7 @@ using namespace std;
 #pragma once
 class Software
 {
+protected:
     string name;
     string developer;
     Date initialRelease;

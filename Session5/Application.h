@@ -1,8 +1,9 @@
+#include"Software.h"
 #include<iostream>
 using namespace std;
 
 #pragma once
-class Application
+class Application : public Software
 {
 public:
     void performOperations();
