@@ -16,10 +16,6 @@ public:
     Person(string name, Person* parent);
     Person* getParent();
     string getName();
-};
 
-int main()
-{
-    Person* p = new Person;
-    p[0].getName();
-}
+    int getNumberOfAntecessors();
+};
