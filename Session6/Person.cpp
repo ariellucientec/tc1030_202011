@@ -33,18 +33,6 @@ int Person::getNumberOfAntecessors()
     return contAntecessors;
 }
 
-int main()
-{
-    Person eva;
-    Person perla("perla", &eva);
-    Person susana("susana", &perla);
-    Person leticia("leticia", &susana);
-    Person juanita("juanita", &susana);
 
-    cout << "leticia tiene " << leticia.getNumberOfAntecessors() << " antecesores" << endl;
+// Clases simples con acciones simples
 
-    cout << "Perla tiene " << perla.getNumberOfAntecessors() << " antecesores" << endl;
-
-    cout << "eva tiene " << eva.getNumberOfAntecessors() << " antecesores";
-
-}
