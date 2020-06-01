@@ -17,7 +17,8 @@ public:
     double getBase();
 };
 
-Triangle::Triangle(string name, double sideA, double sideB, double base, double height) : Shape(name), sideA(sideA), sideB(sideB), base(base), height(height){}
+Triangle::Triangle(string name, double sideA, double sideB, double base, double height) 
+: Shape(name), sideA(sideA), sideB(sideB), base(base), height(height){}
 
 double Triangle::getArea()
 {

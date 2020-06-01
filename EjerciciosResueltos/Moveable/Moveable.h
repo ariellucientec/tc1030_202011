@@ -15,7 +15,11 @@ public:
     void setXYPosition(int x, int y);
 };
 
-Moveable::Moveable(int x, int y) : x(x), y(y){}
+Moveable::Moveable(int x, int y) : x(x), y(y)
+{
+    //scope de la función
+}
+
 void Moveable::moveTo(int x, int y)
 {
     cout << "Objects inheriting from Moveable can move " << endl;
