@@ -1,6 +1,24 @@
 #include"Software.h"
 
-string Software::getName()
+    Software::Software(string name, string developer, Date initialRelease, Date latestRelease, string platform, string licence)
+    : name(name), developer(developer), initialRelease(initialRelease), latestRelease(latestRelease), platform(platform), licence(licence)
+    {
+        /*int num = 0;
+        cout<<"es necesario que agregues los lenguajes disponibles " << endl;
+        cout << "cuántos quieres agregar?" << endl;
+        cin >> num;
+        for(int i=0; i<num; i++)
+        {
+            string language;
+            cout << "escribe el lenguaje " << i+1 << " que estará dispobible: ";
+            cin >> language;
+            addAvailableLanguage(language);
+        }
+        */
+       addAvailableLanguage("EN");
+    }
+
+    string Software::getName()
     {
         return this->name;
     }
@@ -52,12 +70,10 @@ string Software::getName()
         return this->availableLanguages;
     }
 
-
-    void Software::setAvailableLanguages(vector<string> availableLanguages)
+    void Software::addAvailableLanguage(string language)
     {
-        this->availableLanguages = availableLanguages;
+        availableLanguages.push_back(language);
     }
-
 
     string Software::getPlatform()
     {

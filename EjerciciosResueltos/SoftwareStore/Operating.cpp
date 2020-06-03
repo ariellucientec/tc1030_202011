@@ -1,6 +1,12 @@
 #include"Operating.h"
 #include"DeviceDriver.h"
 
+Operating::Operating(string name, string developer, Date initialRelease, Date latestRelease, string platform, string licence)
+: System(name, developer, initialRelease, latestRelease, platform, licence)
+{
+
+}
+
 void Operating::manageSecurity()
 {
     cout << "managing security" << endl;
@@ -25,4 +31,8 @@ void Operating::manageUserInterface()
 string Operating::getShellName()
 {
     return shellName;
+}
+
+void Operating::getTypeOfSoftware(){
+    cout << "soy un Sistema Operativo" << endl;
 }
