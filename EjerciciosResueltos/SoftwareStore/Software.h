@@ -5,7 +5,7 @@
 using namespace std;
 
 #pragma once
-class Software
+class Software  //Abstracta   :    
 {
 protected:
     string name;
