@@ -44,3 +44,10 @@ int main()
   GrandSon g;
   g.both();
 }
+
+
+
+int main()
+{
+  
+}
